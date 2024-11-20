@@ -1,0 +1,143 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #a2d9ff, #e6f7ff);
+  }
+  
+  .contacto-container {
+    padding: 20px;
+    text-align: center;
+    color: #034078;
+  }
+  
+  header {
+    background: #034078;
+    color: white;
+    padding: 20px 0;
+    border-radius: 10px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  header p {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .info-contacto {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  .info-contacto a {
+    color: #034078;
+    text-decoration: none;
+  }
+  
+  .info-contacto a:hover {
+    text-decoration: underline;
+  }
+  
+  .formulario-contacto {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #034078;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  form button:hover {
+    background-color: #026ba6;
+  }
+  
+  footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+/* Estilos para el overlay de carga */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Asegura que esté por encima del contenido */
+  }
+  
+  /* Estilo general para el contenedor */
+  .contacto-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Botones */
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilo para los formularios */
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+
+
+  
+  

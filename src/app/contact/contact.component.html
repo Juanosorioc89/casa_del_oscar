@@ -1,0 +1,48 @@
+<div class="contacto-container">
+    <!-- Contenido principal -->
+    <header>
+      <h1>La Casa del Oscar</h1>
+      <p>¡Tu tienda de confianza para peces y acuarios!</p>
+    </header>
+  
+    <section class="info-contacto">
+      <h2>Contáctanos</h2>
+      <p><strong>Propietario:</strong> Daniel Grajales</p>
+      <p><strong>Teléfono:</strong> <a href="tel:+573118400628">311 8400628</a></p>
+      <p><strong>Correo:</strong> <a href="mailto:contacto@lacasadeloscar.com"></a></p>
+      <p><strong>Dirección:</strong> Calle 12 Oeste #39-49, Montebello, Cali</p>
+    </section>
+  
+    <section class="formulario-contacto">
+      <h2>Envíanos un mensaje</h2>
+      <form (ngSubmit)="onSubmit()">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" [(ngModel)]="contacto.nombre" required />
+  
+        <label for="email">Correo Electrónico</label>
+        <input type="email" id="email" name="email" [(ngModel)]="contacto.email" required />
+  
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" [(ngModel)]="contacto.mensaje" rows="5" required></textarea>
+  
+        <button type="submit">Enviar Mensaje</button>
+      </form>
+    </section>
+  
+    <!-- Contenedor de carga -->
+    <div *ngIf="isLoading" class="loading-overlay">
+      <lottie-player
+        src="https://lottie.host/ce8fcffe-0eef-4f93-bb97-7f07cb540a7d/TNhsZeO98y.json"
+        background="transparent"
+        speed="1"
+        style="width: 200px; height: 200px;"
+        loop
+        autoplay>
+      </lottie-player>
+    </div>
+  
+    <footer>
+      <p>&copy; 2024 La Casa del Oscar. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+  
